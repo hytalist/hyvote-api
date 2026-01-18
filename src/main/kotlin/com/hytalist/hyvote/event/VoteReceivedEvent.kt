@@ -1,7 +1,5 @@
 package com.hytalist.hyvote.event
 
-import com.hypixel.hytale.event.ICancellable
-import com.hypixel.hytale.event.IEvent
 import com.hytalist.hyvote.model.Vote
 
 /**
@@ -34,7 +32,7 @@ import com.hytalist.hyvote.model.Vote
 class VoteReceivedEvent(
     /** The vote data */
     val vote: Vote
-) : IEvent<Void>, ICancellable {
+) : IEvent, ICancellable {
 
     private var cancelled: Boolean = false
 

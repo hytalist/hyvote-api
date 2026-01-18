@@ -20,7 +20,7 @@ java {
 }
 
 dependencies {
-    compileOnly(files("../libraries/HytaleServer.jar"))
+    // standalone
 }
 
 tasks.jar {
