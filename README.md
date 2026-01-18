@@ -1,6 +1,6 @@
 # HyVote API
 
-API for [HyVote](https://github.com/hytalist/hyvote) - Votifier implementation for Hytale servers.
+API for [HyVote](https://www.curseforge.com/hytale/mods/hyvote-votifier) - Votifier implementation for Hytale servers.
 
 Use this API to listen for vote events in your Hytale plugin.
 
